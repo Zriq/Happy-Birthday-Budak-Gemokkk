@@ -29,7 +29,7 @@ const animationTimeline = () => {
         .split("")
         .join("</span><span>")}</span>`;
 
-    hbd.mp3 = `<span>${hbd.mp3
+    hbd.innerHTML = `<span>${hbd.innerHTML
         .split("")
         .join("</span><span>")}</span>`;
 
